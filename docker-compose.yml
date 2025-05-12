@@ -1,6 +1,6 @@
 services:
   app:
-    build: .
+    build: gestioncatalogoservice
     image: gestioncatalogoservice:latest
     container_name: gestioncatalogoservice
     ports:
