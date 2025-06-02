@@ -7,5 +7,6 @@ import java.util.Optional;
 public interface InventarioService {
 
     public Optional<Inventario> getStock(Long id);
+    public Inventario save(Inventario inventario);
 
 }

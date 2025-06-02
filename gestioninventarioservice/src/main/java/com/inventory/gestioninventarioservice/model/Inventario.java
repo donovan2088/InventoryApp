@@ -9,6 +9,9 @@ public class Inventario {
     private Long productoId;
     private int cantidad;
 
+    public Inventario(Long productoId, int i) {
+    }
+
     public Long getProductoId() {
         return productoId;
     }

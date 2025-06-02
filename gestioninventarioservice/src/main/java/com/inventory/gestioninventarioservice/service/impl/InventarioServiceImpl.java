@@ -18,4 +18,9 @@ public class InventarioServiceImpl implements InventarioService {
     public Optional<Inventario> getStock(Long id) {
         return inventorioRepository.findById(id);
     }
+
+    public Inventario save(Inventario inventario){
+        inventorioRepository.save(inventario);
+        return inventario;
+    }
 }
